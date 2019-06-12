@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="10" guice-stage="DEVELOPMENT" name="Failed suite [Tst pactices demo]" parallel="classes">
+  <test thread-count="10" name="Teststart(failed)" parallel="classes">
+    <classes>
+      <class name="com.vinnu.automation.Teststart">
+        <methods>
+          <include name="loginUrl"/>
+        </methods>
+      </class> <!-- com.vinnu.automation.Teststart -->
+      <class name="com.vinnu.automation.AlertPractice">
+        <methods>
+          <include name="Alertaccept"/>
+        </methods>
+      </class> <!-- com.vinnu.automation.AlertPractice -->
+    </classes>
+  </test> <!-- Teststart(failed) -->
+</suite> <!-- Failed suite [Tst pactices demo] -->

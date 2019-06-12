@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="111096" started-at="2019-05-28T13:21:23Z" finished-at="2019-05-28T13:23:14Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="111096" started-at="2019-05-28T13:21:23Z" finished-at="2019-05-28T13:23:14Z">
+      <class name="com.vinnu.automation.Screenshot">
+        <test-method status="PASS" signature="takeScreenshot()[pri:0, instance:com.vinnu.automation.Screenshot@51565ec2]" name="takeScreenshot" duration-ms="110919" started-at="2019-05-28T13:21:23Z" finished-at="2019-05-28T13:23:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+      </class> <!-- com.vinnu.automation.Screenshot -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

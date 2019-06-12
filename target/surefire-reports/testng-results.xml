@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="8" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="com.vinnu.automation.Teststart" duration-ms="50980" started-at="2019-05-24T15:45:56Z" finished-at="2019-05-24T15:46:47Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="50980" started-at="2019-05-24T15:45:56Z" finished-at="2019-05-24T15:46:47Z">
+      <class name="com.vinnu.automation.Teststart">
+        <test-method status="FAIL" signature="loginUrl(java.lang.String)[pri:0, instance:com.vinnu.automation.Teststart@2d6e8792]" name="loginUrl" duration-ms="0" started-at="2019-05-24T15:45:56Z" finished-at="2019-05-24T15:45:56Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Cannot inject @Test annotated Method [loginUrl] with [class java.lang.String].
+For more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Cannot inject @Test annotated Method [loginUrl] with [class java.lang.String].
+For more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection
+at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:407)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:356)
+at org.testng.internal.Parameters.createParameters(Parameters.java:635)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:769)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:49)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:37)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:924)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:110)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginUrl -->
+        <test-method status="PASS" signature="callDemo()[pri:1, instance:com.vinnu.automation.Teststart@2d6e8792]" name="callDemo" duration-ms="23155" started-at="2019-05-24T15:45:56Z" finished-at="2019-05-24T15:46:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- callDemo -->
+        <test-method status="PASS" signature="radioSelection()[pri:2, instance:com.vinnu.automation.Teststart@2d6e8792]" name="radioSelection" duration-ms="21502" started-at="2019-05-24T15:46:19Z" finished-at="2019-05-24T15:46:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- radioSelection -->
+        <test-method status="PASS" signature="checkSelection()[pri:3, instance:com.vinnu.automation.Teststart@2d6e8792]" name="checkSelection" duration-ms="776" started-at="2019-05-24T15:46:41Z" finished-at="2019-05-24T15:46:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSelection -->
+        <test-method status="PASS" signature="uploadfile()[pri:5, instance:com.vinnu.automation.Teststart@2d6e8792]" name="uploadfile" duration-ms="167" started-at="2019-05-24T15:46:42Z" finished-at="2019-05-24T15:46:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- uploadfile -->
+        <test-method status="PASS" signature="dropdownSelection()[pri:6, instance:com.vinnu.automation.Teststart@2d6e8792]" name="dropdownSelection" duration-ms="4662" started-at="2019-05-24T15:46:42Z" finished-at="2019-05-24T15:46:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dropdownSelection -->
+        <test-method status="PASS" signature="listSelection()[pri:7, instance:com.vinnu.automation.Teststart@2d6e8792]" name="listSelection" duration-ms="484" started-at="2019-05-24T15:46:46Z" finished-at="2019-05-24T15:46:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- listSelection -->
+        <test-method status="PASS" signature="submit()[pri:8, instance:com.vinnu.automation.Teststart@2d6e8792]" name="submit" duration-ms="37" started-at="2019-05-24T15:46:47Z" finished-at="2019-05-24T15:46:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submit -->
+      </class> <!-- com.vinnu.automation.Teststart -->
+    </test> <!-- Command line test -->
+  </suite> <!-- com.vinnu.automation.Teststart -->
+</testng-results>
